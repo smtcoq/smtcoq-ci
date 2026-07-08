@@ -74,7 +74,7 @@ WORKDIR /home/rocq
 
 RUN git clone https://github.com/smtcoq/smtcoq.git smtcoq-sig
 
-ENV LFSCSIGS="/home/rocq/smtcoq-sig/src/lfsc/tests/signatures/"
+ENV LFSCSIGS="/home/rocq/smtcoq-sig/src/lfsc/signatures/"
 
 ENV DONTSHOWVERIT="yes"
 
