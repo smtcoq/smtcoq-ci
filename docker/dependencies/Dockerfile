@@ -23,7 +23,7 @@ WORKDIR /home/rocq
 
 RUN opam update && \
     opam upgrade -y && \
-    opam install -y num
+    opam install -y num rocq-trakt
 
 ###################### COMPILE ZChaff ######################
 
