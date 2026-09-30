@@ -29,7 +29,7 @@ RUN opam update && \
 
 WORKDIR /home/rocq
 
-RUN wget http://www.princeton.edu/~chaff/zchaff/zchaff.2008.10.12.zip && \
+RUN wget https://www.princeton.edu/~chaff/zchaff/zchaff.2008.10.12.zip && \
     aunpack zchaff.2008.10.12.zip && \
     cd zchaff && \
     sed -i -re 's/\/\/ #define VERIFY_ON/#define VERIFY_ON/' zchaff_solver.cpp && \
